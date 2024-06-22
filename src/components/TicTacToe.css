@@ -1,0 +1,59 @@
+.container {
+  text-align: center;
+}
+.title {
+  margin-top: 35px;
+  font-size: 45px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title .react {
+  color: hsl(49, 100%, 57%);
+  padding-left: 12px;
+}
+.title .game {
+  color: rgb(255, 8, 0);
+  padding: 0 12px;
+}
+
+.reset {
+  width: 150px;
+  height: 70px;
+  border-radius: 35px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: hsl(49, 100%, 57%);
+  font-size: 1.3em;
+  background-color: hsl(200, 35%, 19%);
+  margin-top: 30px;
+}
+.reset:hover {
+  background-color: hsl(200, 35%, 14%);
+}
+.boxes {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  background-color: hsl(200, 35%, 19%);
+  border: 3px solid hsl(200, 38%, 9%);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.board {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.boxes img {
+  margin: 25px 25px;
+}
+.title img {
+  padding: 12px 12px;
+  width: 45px;
+}
+.title .win {
+  color: green;
+}
